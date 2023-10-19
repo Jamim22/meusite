@@ -1,0 +1,309 @@
+body {
+
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    background-color: #8ab9f1;
+            
+}
+        
+header {
+
+    border-bottom: 1px solid #4B3621;
+    background-image: url("imagens/Artificial_Intelligence.gif");
+    color: #8ab9f1;
+    text-align: left;
+}
+
+#foto-perfil{
+
+    position: relative;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #8ab9f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+
+    background-color: #8ab9f1;
+    padding: 15px;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Exibe os itens em linha (horizontalmente) */
+    justify-content: center;
+}
+
+nav li {
+
+    margin: 0 15px; /* Espaçamento entre os itens */
+    font-size: 18px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #4B3621; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 2px solid #4B3621; /* Borda sólida */
+    border-radius: 25px; /* Borda arredondada */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+
+    background-color: #4B3621; /* Cor de fundo no hover */
+    color: #fff; /* Cor do texto no hover */
+}        
+.page {
+
+    display: none;
+}
+        
+.page.active {
+
+    display: block;
+}
+
+.content {  
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 30px 30px;
+    border-left: 1px solid #4B3621;
+    border-right: 1px solid #4B3621;
+    border-color:1px #4B3621;
+    background-color: #8ab9f1;
+    color: #4B3621;
+    text-align: center;
+}    
+
+.formacao{
+
+    padding: 0px 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+        
+    
+/* Estilização para o contêiner principal do "Sobre Mim" */
+#sobre-mim {
+
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px 8ab9f1(0, 0, 0, 0.2); 
+}
+
+/* Estilização para o título */
+#sobre-mim h2 {
+
+  font-size: 24px; 
+  color: #4B3621; 
+  margin-bottom: 10px; /
+}
+
+/* Estilização para o parágrafo de descrição */
+#sobre-mim p {
+
+  font-size: 16px; 
+  color: #4B3621; 
+  line-height: 1.5; 
+}
+
+/* Estilização para a aba "Contato" */
+#contato a{
+      
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+#contato a:hover {
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Link do primeiro projeto */
+.project-link1{
+     
+    color: white; 
+    text-decoration: none;
+    padding: 5px; 
+    font-weight: bold;
+    border: 5px solid #3e7dca;
+    background-color: #3e7dca;
+    border-radius: 20px;
+     
+}
+
+/* faz a ação do botão*/
+.project-link1:hover{
+     
+    color: white;
+    font-weight: bold;
+    border: 5px solid #1c4270;
+    background-color: #1c4270;
+     
+}
+
+.project-link2{
+     
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid #3e7dca;
+    border-radius: 20px;
+    background-color: #3e7dca;
+}
+
+.project-link2:hover{
+
+    color: white;
+    font-weight: bold;
+    border: 5px solid #1c4270;
+    background-color: #1c4270;
+    
+}
+
+.project-link3{
+    
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid #3e7dca;
+    border-radius: 20px;
+    background-color: #3e7dca;
+}
+
+.project-link3:hover{
+
+    color: white;
+    font-weight: bold;
+    border: 5px solid #1c4270;
+    background-color: #1c4270;
+}
+
+.project-item{
+
+    text-align: left;
+    list-style: none;
+}
+
+/* estiliza campo do email */
+.email{
+
+    color: white;
+    border: 5px solid #1c4270;
+    background-color: #1c4270;
+    border-radius: 20px;
+}
+
+.github{
+    
+    color: white;
+    border: 5px solid #1c4270;
+    background-color: #1c4270;
+    border-radius: 20px;
+}
+
+.whatsapp{
+
+    border: 5px solid #1c4270;
+    background-color: #1c4270;
+    border-radius: 20px;
+    color: white;
+}
+
+/* estiliza rodape */
+footer {
+
+    position: relative;
+    background-color: #8ab9f1;
+    border-top: 1px solid #4B3621;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+}
+
+
+/* estiliza icones */
+#rodape-icon{
+
+    position: relative;
+    height: 66px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #8ab9f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.rodape-icon1{
+    position: relative;
+    width: 100%;
+    height: 100px;    
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #8ab9f1;
+}
+
+.rodape-icon2{
+    position: relative;
+    width: 100%;
+    height: 100px;    
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #8ab9f1;
+}
+
+.rodape-icon3{
+    position: relative;
+    width: 100%;
+    height: 100px;    
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #8ab9f1;
+}
+
+/*alinha o item para o meio*/
+.texto-rodape{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    /* Alterador para telas menores */
+
+    nav ul {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 0; /* Espaçamento entre os itens */
+    }
+
+    nav a {
+        display: block; /* Transforma os links em blocos */
+    }
+
+    #sobre-mim {
+        padding: 10px;
+    }
+    
+    
+}
